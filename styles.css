@@ -46,6 +46,43 @@ body {
   padding: 20px;
 }
 
+/* Sección Sobre mí */
+.sobre-mi {
+  max-width: 1000px; /* Limita el ancho para que no se vea demasiado extendido */
+  margin: 60px auto; /* Centra la sección y le da espacio arriba/abajo */
+  padding: 20px;
+  text-align: center; /* Centra el título */
+}
+
+.sobre-mi h2 {
+  color: #00ffcc; /* Color llamativo para el título */
+  margin-bottom: 20px;
+}
+
+/* Contenedor de perfil */
+.perfil {
+  display: flex; /* Usa flexbox para colocar imagen y texto lado a lado */
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  gap: 20px; /* Espacio entre imagen y texto */
+}
+
+/* Imagen de perfil */
+.perfil img {
+  width: 150px; /* Tamaño de la foto */
+  height: 150px;
+  border-radius: 50%; /* Hace la imagen circular */
+  border: 3px solid #00ffcc; /* Borde decorativo */
+}
+
+/* Texto descriptivo */
+.descripcion {
+  max-width: 600px; /* Limita el ancho del texto */
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-size: 1.1rem; /* Tamaño de letra un poco más grande */
+  line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+}
+
 /* Grid de proyectos */
 .grid {
   display: grid;
@@ -71,3 +108,4 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
